@@ -93,6 +93,7 @@ def main():
         print(f"Loading model from {args.model_path}")
         model, config = load_model(args.model_path, device)
         print("Model loaded successfully")
+        print(f"Number of parameters: {sum(p.numel() for p in model.parameters())}")
         print(f"Model configuration: {config}")
     except Exception as e:
         print(f"Error loading model: {str(e)}")
