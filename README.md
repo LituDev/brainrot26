@@ -35,5 +35,3 @@ python cli.py --model_path models/brainrot26.pt --text test --device cpu
 
 - [JL²](https://github.com/JLsquare)
 - [LituDev](https://github.com/litudev)
-
-Made with 0.2 BAC
